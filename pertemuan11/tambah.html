@@ -6,15 +6,33 @@
     <title>Document</title>
 </head>
 <body>
+    <h2>Tambah Data Barang</h2>
     <form action="insert.php" method="post">
-        <h2>Tambah Data Barang</h2>
-        <br>
         <table>
             <tr>
                 <td>No</td>
-                <td><input type="text" name="no"></td>
+                <td><input type="text" name="no" style="width: 100PX;"></td>
+            </tr>
+            <tr>
+                <td>Nama Merk</td>
+                <td><input type="text" name="nama_merk" style="width: 200PX;"></td>
+            </tr>
+            <tr>
+                <td>Warna</td>
+                <td><input type="text" name="warna" style="width: 350PX;"></td>
+            </tr>
+            <tr>
+                <td>Jumlah</td>
+                <td><input type="text" name="jumlah" style="width: 80PX;"></td>
+            </tr>
+            <tr>
+                <td><input type="submit" name="simpan" value="Simpan"></td>
+            </tr>
+            <tr>
+                <td><input type="reset" value="Ulangi"></td>
             </tr>
         </table>
     </form>
+    <a href="index.php"><button>Kembali</button></a>
 </body>
 </html>

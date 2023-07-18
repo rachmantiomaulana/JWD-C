@@ -29,7 +29,7 @@ include "koneksi.php";
         ?>
         <tr>
             <td><?php echo htmlentities($a['no']); ?></td>
-            <td><?php echo htmlentities($a['nama_merek']); ?></td>
+            <td><?php echo htmlentities($a['nama_merk']); ?></td>
             <td><?php echo htmlentities($a['warna']); ?></td>
             <td><?php echo htmlentities($a['jumlah']); ?></td>
         </tr>

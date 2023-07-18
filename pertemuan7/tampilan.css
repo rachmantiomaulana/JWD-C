@@ -1,0 +1,81 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    max-width: 400px;
+    margin: 100px auto;
+    padding: 20px;
+    border: 1px solid #bbb;
+    background-color: #eee;
+    border-radius: 5px 0 5px 0;
+    box-shadow: 0 0 7px 0 #aaa;
+}
+.container h2{
+    font-size: 30px;
+    text-align: center;
+}
+.container label{
+    display: block;
+    margin: 0 0 5px 0;
+    font-weight: bold;
+}
+.container input[type="email"],[type="password"]{
+    width: 100%;
+    padding: 10px;
+    height: 42px;
+    margin-bottom: 10px;
+    border: 1px solid #aaa;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+.container input[type="submit"]{
+    width: 100%;
+    padding: 10px;
+    background-color: rgb(26, 135, 26);
+    border: 0;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: large;
+    border-radius: 3px;
+    cursor: pointer;
+} 
+.container input[type="submit"]:hover{
+    background-color: rgb(43, 208, 43);
+}
+
+.alert {
+    background-color: rgb(222, 64, 64);
+    padding: 10px;
+    border-radius: 3px;
+    margin: 20px 0;
+    color: white;
+    border: 1px solid #ff2929;
+}
+.btn-group{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.btn-group label{
+    display: block;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: white;
+    cursor: pointer;
+}
+.btn-group label:hover{
+    background-color: #ddd;
+}
+.btn-group label input[type='checkbox']{
+    display: none;
+}
+.left {
+    float: left;
+}
+.right {
+    float: right;
+}
+#totalCost{
+    font-weight: bold;
+    padding: 13px;
+}

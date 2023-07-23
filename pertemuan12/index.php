@@ -18,7 +18,7 @@
 if (isset($_GET['status'])) {
     if ($_GET['status'] == "sukses") {
         echo "Pendaftaran siswa baru berhasil!!";
-    } elseif ($_GET['status'] == "") {
+    } elseif ($_GET['status'] == "gagal") {
         echo "Pendaftaran siswa baru gagal!!";
     }
 }
